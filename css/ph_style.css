@@ -1,0 +1,19 @@
+.placeholder{
+    width: 500px;
+    height: 600px;
+    background-image: url(../img/pic.png);
+    background-size: cover;
+    background-position-x: left;
+    animation: slider 20s infinite;
+    animation-timing-function:cubic-bezier(0.73, -0.01, 0.22, 1.03);
+
+}
+@keyframes slider {
+  0% {background-position-x: left;}
+  30% {background-position-x: left;}
+  33% {background-position-x: center;}
+  63% {background-position-x: center;}
+  66% {background-position-x: right;}
+  97% {background-position-x: right;}
+  100% {background-position-x: left;}
+}
